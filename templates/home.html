@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Welcome to My Portfolio Website</h1>
+    <img src="{{ url_for('static', filename='varad photo.jpg') }}" alt="Your Name" class="profile-photo">
+    <p>I am Varad Yadav</p>
+    <p>
+        <a href="https://drive.google.com/file/d/1Qdtntu5GNx5895UwZ7F2MEDB0EjzMex9/view?usp=drive_link" target="_blank">View My Resume</a>
+    </p>
+{% endblock %}
